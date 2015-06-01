@@ -1,0 +1,27 @@
+
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>WebRTC Fundamentals - SimpleWebRTC Chatroom Demo</title>
+          <link rel="stylesheet" href="css/style2.css">
+          <script src="js/jquery.min.js"></script>
+          <script src="js/latest.js"></script>
+          <script src="js/multiroom.js"></script>
+    </head>
+    <body>
+        <h1 id="title">Create your own private multi-party chatroom</h1>
+        
+        <form id="createRoom">
+            <input id="sessionInput"/>
+            <button type="submit">Create it!</button>
+        </form>
+        <button id="screenShareButton"></button><br><span id="subTitle">(https required for screensharing to work)</span>
+        <div id="roomLink" style="font-size:18px; color: #F00;"></div>
+        <video id="localVideo" width="180" style="margin-top:15px;"></video>
+        <div id="remotes"></div>
+        
+
+    </body>
+</html>
